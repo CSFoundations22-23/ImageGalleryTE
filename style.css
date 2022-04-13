@@ -1,4 +1,37 @@
-img {
-    width: 450px;
-    height: 300px;
+/*
+background color:  #3A3845
+font color:        #F7CCAC
+secondary color:   #C69B7B
+tertiary color:    #826F66
+*/
+
+body {
+    background-color: #3A3845;
+    color: #F7CCAC;
+}
+
+.imageCard {
+    height:  30rem;
+    background-color: #826F66;
+    color: #000;
+    text-align: center;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px 10px;
+    margin: 2rem;
+}
+
+.imageCard a {
+    text-decoration: none;
+    color: #C69B7B;
+}
+
+.imageCard img {
+    width: auto;
+    height: 18rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px #3A3845;
 }
