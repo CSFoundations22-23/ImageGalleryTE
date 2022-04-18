@@ -5,23 +5,33 @@ secondary color:   #C69B7B
 tertiary color:    #826F66
 */
 
+html {
+    font-size: 62.5%;    /* Default font size is 16px -  62.5% of 16 is 10px -
+                            1 rem (relative unit) now will be equivalent to 10px} */
+}
+
 body {
     background-color: #3A3845;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
     color: #F7CCAC;
+    font-size: 4rem;
 }
 
 .imageCard {
-    height:  30rem;
+    height:  25%;
     background-color: #826F66;
     color: #000;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    box-shadow: 10px 10px;
-    margin: 2rem;
+    box-shadow: 5px 5px;
 }
 
 .imageCard a {
@@ -30,8 +40,6 @@ body {
 }
 
 .imageCard img {
-    width: auto;
-    height: 18rem;
-    border-radius: 10px;
-    box-shadow: 5px 5px 2px #3A3845;
+    max-width: 100%;
+    height: auto;
 }
