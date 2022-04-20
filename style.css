@@ -19,6 +19,12 @@ h1 {
     text-align: center;
     color: #F7CCAC;
     font-size: 4rem;
+    border-bottom: 2px solid #826F66;
+    border-right: 2px solid #826F66;
+    width: 80%;
+    margin: 5rem;
+    line-height: 8rem;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
 }
 
 .imageCard {
@@ -31,6 +37,7 @@ h1 {
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 5rem;
+    transition: all 1s;
 }
 
 .imageCard a {
@@ -41,6 +48,10 @@ h1 {
 .imageCard img {
     max-width: 100%;
     height: auto;
+}
+
+.imageCard:hover {
+    transform: scale(1.1);
 }
 
 .textCard {
