@@ -22,8 +22,8 @@ Image Gallery is our first project "walkthrough".
      - transition
      - transform
     
-    [W3 Schools Browser Support Reference](https://www.w3schools.com/cssref/css3_browsersupport.asp)
+[W3 Schools Browser Support Reference](https://www.w3schools.com/cssref/css3_browsersupport.asp)
     
-    [Support Tables for HTML5, CSS3, etc](https://caniuse.com)
+[Support Tables for HTML5, CSS3, etc](https://caniuse.com)
 
     
