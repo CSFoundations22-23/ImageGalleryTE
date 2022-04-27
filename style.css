@@ -26,8 +26,8 @@ header {
     border-bottom: 2px solid #826F66;
     border-right: 2px solid #826F66;
     border-left: 2px solid #826F66;
-    margin: 2rem 4rem;
-    padding: 2rem;
+    margin: 2rem;
+    padding: 1rem;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
 }
@@ -39,7 +39,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 8rem 3rem;
+    margin: 6rem 3rem;
     transition: all 1s;
 }
 
@@ -73,7 +73,7 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*
+
 @media (min-width: 768px){
     .gallery{
         display: flex;
@@ -83,7 +83,7 @@ header {
     }
     
     .imageCard{
-        width: 30%;
+        width: 28%;
     }
 }
-*/
+
