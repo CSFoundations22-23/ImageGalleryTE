@@ -1,9 +1,12 @@
 /*
+Color Palette:
 background color:  #3A3845
 font color:        #F7CCAC
 secondary color:   #C69B7B
 tertiary color:    #826F66
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,800;1,300&display=swap');
 
 html {
     font-size: 62.5%;    /* Default font size is 16px -  62.5% of 16 is 10px -
@@ -13,21 +16,24 @@ html {
 body {
     background-color: #3A3845;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    text-align: center;
+header {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
     color: #F7CCAC;
-    font-size: 4rem;
+    text-align: center;
     border-bottom: 2px solid #826F66;
     border-right: 2px solid #826F66;
+    border-left: 2px solid #826F66;
     width: 80%;
     margin: 2rem;
-    line-height: 8rem;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
 }
 
-.container {
+
+.gallery {
     display: flex;
     flex-wrap:  wrap;
 }
@@ -61,7 +67,7 @@ h1 {
 }
 */
 
-.textCard {
+.cardText {
     text-align: center;
     font-size: 2rem;
     padding: 2rem;
